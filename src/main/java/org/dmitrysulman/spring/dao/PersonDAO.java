@@ -20,6 +20,10 @@ public class PersonDAO {
         people.add(new Person(++PEOPLE_COUNT, "Katy"));
     }
 
+    public void delete(int id) {
+        people.removeIf(p -> p.getId() == id);
+    }
+
     public List<Person> index() {
         return people;
     }
@@ -31,5 +35,10 @@ public class PersonDAO {
     public void save(Person person) {
         person.setId(++PEOPLE_COUNT);
         people.add(person);
+    }
+
+    public void update(int id, Person updatePerson) {
+        Person personToBeUpdated = show(id);
+        personToBeUpdated.setName(updatePerson.getName());
     }
 }
