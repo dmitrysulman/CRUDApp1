@@ -59,6 +59,12 @@
       <artifactId>hibernate-validator</artifactId>
       <version>6.2.4.Final</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.4.2</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>CRUDApp1</finalName>
