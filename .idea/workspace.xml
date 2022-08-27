@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="512671e0-a24e-4dd2-b3d4-be73e946203e" name="Changes" comment="Commit 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="512671e0-a24e-4dd2-b3d4-be73e946203e" name="Changes" comment="Commit 5">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +56,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/d1304/IdeaProjects/CRUDApp1/src/main/java/org/dmitrysulman/spring/config",
+    "last_opened_file_path": "C:/Users/d1304/IdeaProjects/CRUDApp1/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "spring.configuration.checksum": "9782a459d4f7dca015d11070bdec3f21"
   },
   "keyToStringList": {
@@ -72,6 +71,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\d1304\IdeaProjects\CRUDApp1\src\main\resources" />
       <recent name="C:\Users\d1304\IdeaProjects\CRUDApp1\src\main\java\org\dmitrysulman\spring\config" />
     </key>
   </component>
@@ -175,7 +175,7 @@
       <updated>1659886336444</updated>
       <workItem from="1659886337889" duration="20042000" />
       <workItem from="1660820957423" duration="2493000" />
-      <workItem from="1661256894381" duration="11458000" />
+      <workItem from="1661256894381" duration="15551000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1659958080609</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661263100533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 5">
+      <created>1661453819085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661453819085</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +241,7 @@
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Commit 3" />
     <MESSAGE value="Commit 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 4" />
+    <MESSAGE value="Commit 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5" />
   </component>
 </project>
