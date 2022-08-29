@@ -10,10 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="512671e0-a24e-4dd2-b3d4-be73e946203e" name="Changes" comment="Commit 5">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/controllers/BatchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8675426-fef4-4636-967d-c3cb4e22ea05.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c8675426-fef4-4636-967d-c3cb4e22ea05.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8675426-fef4-4636-967d-c3cb4e22ea05/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c8675426-fef4-4636-967d-c3cb4e22ea05/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/spring/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/d1304/IdeaProjects/CRUDApp1/src/main/resources",
+    "last_opened_file_path": "C:/Users/d1304/IdeaProjects/CRUDApp1/src/main/webapp/WEB-INF/views/batch",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -71,6 +73,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\d1304\IdeaProjects\CRUDApp1\src\main\webapp\WEB-INF\views\batch" />
       <recent name="C:\Users\d1304\IdeaProjects\CRUDApp1\src\main\resources" />
       <recent name="C:\Users\d1304\IdeaProjects\CRUDApp1\src\main\java\org\dmitrysulman\spring\config" />
     </key>
@@ -175,7 +178,7 @@
       <updated>1659886336444</updated>
       <workItem from="1659886337889" duration="20042000" />
       <workItem from="1660820957423" duration="2493000" />
-      <workItem from="1661256894381" duration="15551000" />
+      <workItem from="1661256894381" duration="22315000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1659958080609</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661453819085</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit 5">
+      <created>1661616299369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661616299369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
