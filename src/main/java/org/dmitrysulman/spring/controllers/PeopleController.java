@@ -43,7 +43,7 @@ public class PeopleController {
         return "people/new";
     }
 
-    @PostMapping
+    @PostMapping("/new")
     public String create(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult) {
         personValidator.validate(person, bindingResult);
@@ -62,7 +62,7 @@ public class PeopleController {
         return "people/edit";
     }
 
-    @PatchMapping("/{id}")
+    @PatchMapping("/{id}/edit")
     public String update(@PathVariable("id") int id, @ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult) {
         personValidator.validate(person, bindingResult);
