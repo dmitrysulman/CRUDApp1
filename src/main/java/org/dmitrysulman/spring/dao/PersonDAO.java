@@ -95,6 +95,13 @@ public class PersonDAO {
                 .orElse(null);
     }
 
+    public Person show(String email) {
+        return jdbcTemplate.query("SELECT * FROM person WHERE email = ?", new BeanPropertyRowMapper<>(Person.class), email)
+                .stream()
+                .findAny()
+                .orElse(null);
+    }
+
     public void save(Person person) {
 //        try {
 //            PreparedStatement preparedStatement =
@@ -106,7 +113,8 @@ public class PersonDAO {
 //        } catch (SQLException e) {
 //            throw new RuntimeException(e);
 //        }
-        jdbcTemplate.update("INSERT INTO person (name, age, email) VALUES (?, ?, ?)", person.getName(), person.getAge(), person.getEmail());
+        jdbcTemplate.update("INSERT INTO person (name, age, email, address) VALUES (?, ?, ?, ?)",
+                person.getName(), person.getAge(), person.getEmail(), person.getAddress());
     }
 
     public void update(int id, Person updatePerson) {
@@ -121,7 +129,8 @@ public class PersonDAO {
 //        } catch (SQLException e) {
 //            throw new RuntimeException(e);
 //        }
-        jdbcTemplate.update("UPDATE person SET name = ?, age = ?, email = ? WHERE id = ?", updatePerson.getName(), updatePerson.getAge(), updatePerson.getEmail(), id);
+        jdbcTemplate.update("UPDATE person SET name = ?, age = ?, email = ?, address = ? WHERE id = ?",
+                updatePerson.getName(), updatePerson.getAge(), updatePerson.getEmail(), updatePerson.getAddress(), id);
     }
 
     public void testMultipleUpdate() {
@@ -162,7 +171,7 @@ public class PersonDAO {
         List<Person> people = new ArrayList<>();
 
         for (int i = 0; i < 1000; i++) {
-            people.add(new Person(i, "Name" + i, 30, "test" + i + "@mail.ru"));
+            people.add(new Person(i, "Name" + i, 30, "test" + i + "@mail.ru", "address"));
         }
 
         return people;
